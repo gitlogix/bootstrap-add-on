@@ -1,0 +1,29 @@
+{
+    "name": "bootstrap-add-on",
+    "displayName": "bootstrap-add-on",
+    "description": "A simple extension of add bootstrap components to webpages using simple commands",
+    "version": "0.0.1",
+    "publisher": "umarayyaz23@gmail.com",
+    "engines": {
+        "vscode": "^1.45.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "html",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
